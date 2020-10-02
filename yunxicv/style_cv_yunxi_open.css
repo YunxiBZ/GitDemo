@@ -1,0 +1,108 @@
+body
+{
+    width: 80%;
+    min-width: 500px;
+    margin: auto;
+    text-align: justify;
+}
+
+h1
+{
+    color:#fff;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow:3px 3px 3px #538066;
+    padding: 2px;
+}
+
+h2{
+    color:#538066;
+    text-align: center;
+    text-shadow: 3px 3px 5px #538066;
+}
+
+h3
+{
+    color:#fff
+}
+
+h3
+{
+    text-shadow: 3px 3px 5px #538066;
+    padding: 2px;
+}
+
+h4{
+    color:#53807c
+}
+
+p,ul
+{
+    color: #444;
+    text-align: left;
+    text-align: justify;
+}
+
+img
+{
+    float: right;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px #538066;
+}
+
+h2
+{
+    clear: both;
+}
+
+h1,div,h3
+{
+    background-image: url(img/fond-fleur.jpeg);
+    background-size: 100em;
+    background-attachment: fixed;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+}
+
+@font-face {
+    font-family: 'funsized';
+    src: url('font/FunSized.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1,h3
+{
+    border: 3px #536e80 solid;
+    box-shadow: 3px 3px 5px #53807c ;
+    border-radius: 3em;
+    text-align: center;
+}
+
+div p
+{
+    text-align: center;
+}
+
+h2:hover
+{
+    font-size: xx-large;
+    text-shadow: #536e80;
+}
+
+a:visited
+{
+    color: #999;
+}
+
+a[title="Cliquez-ici"]
+
